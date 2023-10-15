@@ -7,7 +7,7 @@ export const createCarosel = (contentArray) => {
         (acc, item) => (acc += createCaroselCard(item)),
         ""
     );
-    caroselContentContainer.html(htmlString);
+    caroselContentContainer.html(caroselContentContainer.html() + htmlString);
 };
 
 export const revealOnScroll = () => {
@@ -19,12 +19,12 @@ export const revealOnScroll = () => {
         const viewportBottom = viewportTop + $(window).height();
         const elementInView =
             elementBottom > viewportTop && elementTop < viewportBottom;
-
+        const numOfChildren = item.children.length;
         if (elementInView) {
-            item.classList.add("reveal");
             setCurIndex(item.id - 1);
+            item.children.item(numOfChildren - 1).classList.add("reveal");
         } else {
-            item.classList.remove("reveal");
+            item.children.item(numOfChildren - 1).classList.remove("reveal");
         }
     });
 };

@@ -1,6 +1,6 @@
 import { createCarosel, revealOnScroll } from "./carosel.js";
 import { contentArray } from "./content.js";
-import { setCurrentCardIndex } from "./globalState.js";
+import { setCurrentCardIndex, curIndex } from "./globalState.js";
 
 $(document).ready(function () {
     createCarosel(contentArray);

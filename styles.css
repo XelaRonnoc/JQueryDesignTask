@@ -1,6 +1,8 @@
 /* page styles */
+
 html {
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 body {
@@ -8,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
 }
 
 /* nav bar styles */
@@ -57,18 +58,37 @@ menu a:hover {
     background-color: #636940;
 }
 
+section {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("http://placekitten.com/3000/3000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 20px;
+    opacity: 0;
+    transition: 3s all ease;
+}
+
+.reveal {
+    opacity: 1;
+}
+
 /* Cards */
 main {
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
+    overflow-y: scroll;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
     height: 100vh;
+    padding-bottom: 20px;
 }
 
 .carosel-card {
+    z-index: 990;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,20 +97,8 @@ main {
     width: 100%;
     height: 100vh;
     display: flex;
-    overflow-y: scroll;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
     position: relative;
-    /* transform: translateY(50vh); */
-    opacity: 0;
-    transition: 1s all ease;
-}
-
-.reveal {
-    /* transform: translateY(0vh); */
-    opacity: 1;
+    padding-bottom: 20px;
 }
 
 .carosel-text-container {
