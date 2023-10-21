@@ -59,20 +59,28 @@ menu a:hover {
 }
 
 section {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background-color: black;
-    background-image: url("http://placekitten.com/3000/3000");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding-bottom: 20px;
+    /* opacity: 0; */
+    /* transition: 3s all ease; */
+}
+
+section > img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: hidden;
     opacity: 0;
+    min-width: 100%;
+    min-height: 100%;
     transition: 3s all ease;
+    object-fit: cover;
 }
 
 .reveal {
+    display: block;
     opacity: 1;
 }
 

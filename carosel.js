@@ -22,9 +22,11 @@ export const revealOnScroll = () => {
         const numOfChildren = item.children.length;
         if (elementInView) {
             setCurIndex(item.id - 1);
-            item.children.item(numOfChildren - 1).classList.add("reveal");
+            //   item.children.item(numOfChildren - 1).classList.add("reveal");
+            $(`#image${item.id}`).get(0).classList.add("reveal");
         } else {
-            item.children.item(numOfChildren - 1).classList.remove("reveal");
+            //   item.children.item(numOfChildren - 1).classList.remove("reveal");
+            $(`#image${item.id}`).get(0).classList.remove("reveal");
         }
     });
 };
