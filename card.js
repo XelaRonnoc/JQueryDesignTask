@@ -3,7 +3,7 @@ export const createCaroselCard = (item) => {
     return `
     <div id='${id}' class="carosel-card ${id === 1 ? "reveal" : ""}">
     <h1>${title}</h1>
-        <div class='carosel-text-container'>
+        <div id="paraId${id}" class='carosel-text-container'>
             <p>${paragraph}</p>
         </div>
     </div>

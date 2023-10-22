@@ -6,7 +6,7 @@ $(document).ready(function () {
     createCarosel(contentArray);
 
     $("main").scroll(function () {
-        revealOnScroll();
+        revealOnScroll(curIndex);
     });
 
     $(".nav-button").click(function () {
