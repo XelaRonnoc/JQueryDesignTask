@@ -2,8 +2,8 @@ export const createCaroselCard = (item) => {
     const { id, title, paragraph, img, imgAlt } = item;
     return `
     <div id='${id}' class="carosel-card ${id === 1 ? "reveal" : ""}">
+    <h1>${title}</h1>
         <div class='carosel-text-container'>
-            <h1>${title}</h1>
             <p>${paragraph}</p>
         </div>
     </div>
