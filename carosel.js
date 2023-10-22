@@ -31,32 +31,32 @@ export const revealOnScroll = (currentIndex) => {
         switch (currentIndex) {
             case 0:
                 bodyHTML.css({
-                    "--nav-bar-background": "#51291E",
-                    "--nav-bar-background-highlight": "#301014",
-                    "--nav-bar-text-color": "#7B886F",
+                    "--nav-bar-background": "#100809",
+                    "--nav-bar-background-highlight": "#3B241D",
+                    "--nav-bar-text-color": "#D4A775",
                 });
                 break;
             case 1: {
                 bodyHTML.css({
-                    "--nav-bar-background": "#011936",
-                    "--nav-bar-background-highlight": "#007E8F",
-                    "--nav-bar-text-color": "#465362",
+                    "--nav-bar-background": "#070D18",
+                    "--nav-bar-background-highlight": "#34282E",
+                    "--nav-bar-text-color": "#007E8F",
                 });
                 break;
             }
             case 2: {
                 bodyHTML.css({
-                    "--nav-bar-background": "#4b4237",
-                    "--nav-bar-background-highlight": "#736b60",
-                    "--nav-bar-text-color": "#5c9ead",
+                    "--nav-bar-background": "#1B140B",
+                    "--nav-bar-background-highlight": "#BF9857",
+                    "--nav-bar-text-color": "#2D5953",
                 });
                 break;
             }
             case 3: {
                 bodyHTML.css({
-                    "--nav-bar-background": "#040F0F",
-                    "--nav-bar-background-highlight": "#2D3A3A",
-                    "--nav-bar-text-color": "#CE2029",
+                    "--nav-bar-background": "#170813",
+                    "--nav-bar-background-highlight": "#30242E",
+                    "--nav-bar-text-color": "#C64E36",
                 });
                 break;
             }
@@ -70,9 +70,9 @@ export const revealOnScroll = (currentIndex) => {
             }
             case 5: {
                 bodyHTML.css({
-                    "--nav-bar-background": "#160202",
-                    "--nav-bar-background-highlight": "#370606",
-                    "--nav-bar-text-color": "#07EDED",
+                    "--nav-bar-background": "#0F0713",
+                    "--nav-bar-background-highlight": "#25253D",
+                    "--nav-bar-text-color": "#90585D",
                 });
                 break;
             }
