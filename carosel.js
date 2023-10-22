@@ -34,6 +34,8 @@ export const revealOnScroll = (currentIndex) => {
                     "--nav-bar-background": "#100809",
                     "--nav-bar-background-highlight": "#3B241D",
                     "--nav-bar-text-color": "#D4A775",
+                    "--text-color": "#C3C3AC",
+                    "--background-shadow-color": "#100809cc",
                 });
                 break;
             case 1: {
@@ -41,6 +43,8 @@ export const revealOnScroll = (currentIndex) => {
                     "--nav-bar-background": "#070D18",
                     "--nav-bar-background-highlight": "#34282E",
                     "--nav-bar-text-color": "#007E8F",
+                    "--text-color": "#DDA388",
+                    "--background-shadow-color": "#070D18cc",
                 });
                 break;
             }
@@ -49,6 +53,8 @@ export const revealOnScroll = (currentIndex) => {
                     "--nav-bar-background": "#1B140B",
                     "--nav-bar-background-highlight": "#BF9857",
                     "--nav-bar-text-color": "#2D5953",
+                    "--text-color": "#E7C678",
+                    "--background-shadow-color": "#1B140Bcc",
                 });
                 break;
             }
@@ -57,6 +63,8 @@ export const revealOnScroll = (currentIndex) => {
                     "--nav-bar-background": "#170813",
                     "--nav-bar-background-highlight": "#30242E",
                     "--nav-bar-text-color": "#C64E36",
+                    "--text-color": "#F4170E",
+                    "--background-shadow-color": "#170813cc",
                 });
                 break;
             }
@@ -65,6 +73,8 @@ export const revealOnScroll = (currentIndex) => {
                     "--nav-bar-background": "#A51080",
                     "--nav-bar-background-highlight": "#FF2ECC",
                     "--nav-bar-text-color": "#E0FF4F",
+                    "--text-color": "#93E1F1",
+                    "--background-shadow-color": "#271A2Dcc",
                 });
                 break;
             }
@@ -73,6 +83,8 @@ export const revealOnScroll = (currentIndex) => {
                     "--nav-bar-background": "#0F0713",
                     "--nav-bar-background-highlight": "#25253D",
                     "--nav-bar-text-color": "#90585D",
+                    "--text-color": "#EDB8AB",
+                    "--background-shadow-color": "#0F0713cc",
                 });
                 break;
             }
@@ -81,6 +93,8 @@ export const revealOnScroll = (currentIndex) => {
                     "--nav-bar-background": "#4b4237",
                     "--nav-bar-background-highlight": "#736b60",
                     "--nav-bar-text-color": "#5c9ead",
+                    "--text-color": "#C3C3AC",
+                    "--background-shadow-color": "#100809cc",
                 });
                 break;
             }
