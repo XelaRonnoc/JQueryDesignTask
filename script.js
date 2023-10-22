@@ -1,15 +1,21 @@
 import {
+    createImages,
     createCards,
     revealOnScroll,
     updatePagePallette,
 } from "./cardContainer.js";
 import { contentArray } from "./content.js";
-import { setNavBarActiveOnScroll, setNavBarActiveOnClick } from "./navBar.js";
+import {
+    setNavBarActiveOnScroll,
+    setNavBarActiveOnClick,
+    createNavBar,
+} from "./navBar.js";
 
 $(document).ready(function () {
     const pageRoot = $(":root");
-    const caroselContentContainer = $("main");
-    createCards(contentArray, caroselContentContainer);
+    createCards(contentArray, $("main"));
+    createNavBar(contentArray, $("menu"));
+    createImages(contentArray, $("section"));
 
     const navArray = $(".nav-button").toArray();
     const cardArray = $(".card").toArray();

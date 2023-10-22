@@ -1,4 +1,4 @@
-import { createCard } from "./card.js";
+import { createCard, createImage } from "./card.js";
 
 export const createCards = (contentArray, containerElement) => {
     const htmlString = contentArray.reduce(
@@ -6,6 +6,14 @@ export const createCards = (contentArray, containerElement) => {
         ""
     );
     containerElement.html(containerElement.html() + htmlString);
+};
+
+export const createImages = (contentArray, containerElement) => {
+    const htmlString = contentArray.reduce(
+        (acc, item) => (acc += createImage(item)),
+        ""
+    );
+    containerElement.html($("section").html() + htmlString);
 };
 
 export const revealOnScroll = (cardArray) => {

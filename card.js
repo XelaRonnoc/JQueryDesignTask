@@ -9,3 +9,15 @@ export const createCard = (item) => {
     </div>
     `;
 };
+
+export const createImage = (item) => {
+    const { imageRef, alt, id } = item;
+    return `
+    <img
+        id="image${id}"
+        class="${id === 1 ? "reveal" : ""}"
+        src="${imageRef}"
+        alt="${alt}"
+    />        
+    `;
+};
