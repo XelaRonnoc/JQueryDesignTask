@@ -1,15 +1,22 @@
 export let curIndex = 0;
 
-export const setCurrentCardIndex = (curButton) => {
-    const navArray = $(".nav-button").toArray();
-    navArray.forEach((item) => item.classList.remove("active"));
-    curIndex = navArray.indexOf(curButton);
-    navArray[curIndex].classList.add("active");
+export const setNavBarActiveOnClick = (navArray, curButton) => {
+    const visibleIndex = navArray.indexOf(curButton);
+    navArray.forEach((item, index) => {
+        if (index === visibleIndex) {
+            item.classList.add("active");
+        } else {
+            item.classList.remove("active");
+        }
+    });
 };
 
-export const setCurIndex = (newIndex) => {
-    const navArray = $(".nav-button").toArray();
-    navArray.forEach((item) => item.classList.remove("active"));
-    navArray[newIndex].classList.add("active");
-    curIndex = newIndex;
+export const setNavBarActiveOnScroll = (visibleIndex, navArray) => {
+    navArray.forEach((item, index) => {
+        if (index === visibleIndex) {
+            item.classList.add("active");
+        } else {
+            item.classList.remove("active");
+        }
+    });
 };

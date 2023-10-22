@@ -15,6 +15,13 @@ html {
     scroll-behavior: smooth;
     background-color: black;
     font-family: "Open Sans", sans-serif;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
 }
 
 body {
@@ -109,8 +116,13 @@ main {
     scroll-behavior: smooth;
     height: 100vh;
     padding-bottom: 20px;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
-
+html::-webkit-scrollbar {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none;
+}
 .carosel-card {
     z-index: 990;
     display: flex;
@@ -124,21 +136,26 @@ main {
     display: flex;
     position: relative;
     padding-bottom: 20px;
+    overflow: scroll;
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
 }
 
 .carosel-card h1 {
     font-family: "Oleo Script Swash Caps", sans-serif;
-    font-size: 64px;
+    font-size: 56px;
     color: var(--text-color);
     background-color: var(--background-shadow-color);
     box-shadow: 0 0 50px 50px var(--background-shadow-color);
+    transition: 3s color ease;
 }
 
 .carosel-text-container {
     width: 90%;
     z-index: 999;
-    font-size: 24px;
+    font-size: 18px;
     background-color: var(--background-shadow-color);
     box-shadow: 0 0 50px 50px var(--background-shadow-color);
     color: var(--text-color);
+    transition: 3s color ease;
 }
