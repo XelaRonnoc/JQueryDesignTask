@@ -1,8 +1,8 @@
-import { createCaroselCard } from "./card.js";
+import { createCard } from "./card.js";
 
-export const createCarosel = (contentArray, containerElement) => {
+export const createCards = (contentArray, containerElement) => {
     const htmlString = contentArray.reduce(
-        (acc, item) => (acc += createCaroselCard(item)),
+        (acc, item) => (acc += createCard(item)),
         ""
     );
     containerElement.html(containerElement.html() + htmlString);

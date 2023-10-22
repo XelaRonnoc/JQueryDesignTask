@@ -1,5 +1,3 @@
-export let curIndex = 0;
-
 export const setNavBarActiveOnClick = (navArray, curButton) => {
     const visibleIndex = navArray.indexOf(curButton);
     navArray.forEach((item, index) => {
