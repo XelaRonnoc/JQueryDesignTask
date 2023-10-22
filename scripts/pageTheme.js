@@ -1,42 +1,5 @@
-import { createCard, createImage } from "./card.js";
-
-export const createCards = (contentArray, containerElement) => {
-    const htmlString = contentArray.reduce(
-        (acc, item) => (acc += createCard(item)),
-        ""
-    );
-    containerElement.html(containerElement.html() + htmlString);
-};
-
-export const createImages = (contentArray, containerElement) => {
-    const htmlString = contentArray.reduce(
-        (acc, item) => (acc += createImage(item)),
-        ""
-    );
-    containerElement.html($("section").html() + htmlString);
-};
-
-export const revealOnScroll = (cardArray) => {
-    let visibleIndex = 0;
-    cardArray.forEach((item) => {
-        const elementTop = item.getBoundingClientRect().top;
-        const elementBottom = item.getBoundingClientRect().bottom;
-        const viewportTop = $(window).scrollTop();
-        const viewportBottom = viewportTop + $(window).height();
-        const elementInView =
-            elementBottom > viewportTop && elementTop < viewportBottom;
-
-        if (elementInView) {
-            visibleIndex = item.id - 1;
-            $(`#image${item.id}`).get(0).classList.add("reveal");
-        } else {
-            $(`#image${item.id}`).get(0).classList.remove("reveal");
-        }
-    });
-    return visibleIndex;
-};
-
-export const updateCssVariables = (
+// alows for less code repetion when editing css class variables
+const updateCssVariables = (
     navBackground,
     navHighlight,
     navText,
@@ -53,6 +16,7 @@ export const updateCssVariables = (
     });
 };
 
+// switch statement using the current index to select the css class variables for the page
 export const updatePagePallette = (visibleIndex, pageRoot) => {
     switch (visibleIndex) {
         case 0:

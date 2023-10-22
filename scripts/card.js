@@ -1,3 +1,4 @@
+// creates html for card
 export const createCard = (item) => {
     const { id, title, paragraph } = item;
     return `
@@ -10,6 +11,7 @@ export const createCard = (item) => {
     `;
 };
 
+//creates html for image
 export const createImage = (item) => {
     const { imageRef, alt, id } = item;
     return `

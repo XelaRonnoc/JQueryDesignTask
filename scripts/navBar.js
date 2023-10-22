@@ -1,3 +1,4 @@
+// creates each nav bar link item
 export const createNavLink = (navItem) => {
     const { title, id } = navItem;
     return `
@@ -9,6 +10,7 @@ export const createNavLink = (navItem) => {
             `;
 };
 
+// creates the nav bar
 export const createNavBar = (contentArray, containerElement) => {
     const htmlString = contentArray.reduce(
         (acc, item) => (acc += createNavLink(item)),

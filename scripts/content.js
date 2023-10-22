@@ -1,3 +1,6 @@
+// all the page content stored here allowing for easier dynamic
+// rendering and easy increase or decrease of page number
+
 export const contentArray = [
     {
         id: 1,
