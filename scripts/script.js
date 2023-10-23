@@ -1,5 +1,5 @@
 import { createImages, createCards, revealOnScroll } from "./cardContainer.js";
-import { updatePagePallette } from "./pageTheme.js";
+import { updatePagePallette, toggleHeaderFont } from "./pageTheme.js";
 import { contentArray } from "./content.js";
 import {
     setNavBarActiveOnScroll,
@@ -8,6 +8,7 @@ import {
 } from "./navBar.js";
 
 $(document).ready(function () {
+    let curFont = "fancy";
     // setup page
     const pageRoot = $(":root");
     createCards(contentArray, $("main"));
@@ -30,5 +31,14 @@ $(document).ready(function () {
     $(".nav-button").click(function () {
         const curButton = $(this).get(0);
         setNavBarActiveOnClick(navArray, curButton);
+    });
+
+    $(".font-toggle-button").click(function () {
+        if (curFont === "fancy") {
+            $(this).text("Swashify Font");
+        } else {
+            $(this).text("Simplify Font");
+        }
+        curFont = toggleHeaderFont(pageRoot, curFont);
     });
 });

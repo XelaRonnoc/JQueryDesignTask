@@ -1,3 +1,17 @@
+export const toggleHeaderFont = (pageRoot, curFont) => {
+    if (curFont === "simplified") {
+        pageRoot.css({
+            "--header-font-family": `"Oleo Script Swash Caps", sans-serif`,
+        });
+        return "fancy";
+    } else {
+        pageRoot.css({
+            "--header-font-family": `"Oleo Script", sans-serif`,
+        });
+        return "simplified";
+    }
+};
+
 // alows for less code repetion when editing css class variables
 const updateCssVariables = (
     navBackground,
@@ -56,7 +70,7 @@ export const updatePagePallette = (visibleIndex, pageRoot) => {
                 "170813",
                 "30242E",
                 "C64E36",
-                "F4170E",
+                "FE925D",
                 "170813cc",
                 pageRoot
             );

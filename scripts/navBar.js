@@ -3,7 +3,8 @@ export const createNavLink = (navItem) => {
     const { title, id } = navItem;
     return `
             <li>
-                <a class="nav-button ${id === 1 ? "active" : ""}" href="#${id}">
+                <a class="nav-button ${id === 1 ? "active" : ""}" 
+                tabindex="0" href="#${id}">
                     <span>${title}</span>
                 </a>
             </li>

@@ -5,7 +5,7 @@ export const contentArray = [
     {
         id: 1,
         title: "World Building",
-        paragraph: `Worldbuilding is a vital aspect of crafting any work of fiction, whether it belongs to the fantasy, science fiction, or historical fiction genres. It's essential to convey to the audience the social, physical, and political backdrop of your fictional world to a reasonable degree. This enables readers or viewers to immerse themselves in your narrative and imagine themselves within it. If your audience can envision themselves in the world you've created and imagine playing a role in it, this is a positive indicator that you've constructed an engaging world. On this site, we'll explore not only the key considerations for effective worldbuilding but also how to effectively communicate this information to your audience.`,
+        paragraph: `World building is a vital aspect of crafting any work of fiction, whether it belongs to the fantasy, science fiction, or historical fiction genres. It's essential to convey to the audience the social, physical, and political backdrop of your fictional world to a reasonable degree. This enables readers or viewers to immerse themselves in your narrative and imagine themselves within it. If your audience can envision themselves in the world you've created and imagine playing a role in it, this is a positive indicator that you've constructed an engaging world. On this site, we'll explore not only the key considerations for effective worldbuilding but also how to effectively communicate this information to your audience.`,
         imageRef: `./images/FantasyMap.jpg`,
         alt: `Fantasy map`,
     },
