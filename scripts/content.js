@@ -59,4 +59,17 @@ export const contentArray = [
         imageRef: `./images/FantasyCastle.jpg`,
         alt: `Castle and Knight`,
     },
+    {
+        id: 7,
+        title: "Attributions",
+        paragraph: `<ol>
+        <li>Background images generated using <a href="https://creator.nightcafe.studio/">Night Cafe</a>.</li>
+        <li>Fonts from <a href="https://fonts.google.com/">Google Fonts</a>.</li>
+        <li>Original text refined by<a href="https://chat.openai.com/">ChatGPT-3.5</a>.</li>
+        </ol>
+        <p>If you want to learn more about world building The Templin Institute on Youtube is running a series all about it! Check out one of those videos below:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
+        imageRef: `./images/PostApocalypticCity.jpg`,
+        alt: `Post Apocalyptic City`,
+    },
 ];

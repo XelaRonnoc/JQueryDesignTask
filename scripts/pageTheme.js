@@ -18,6 +18,7 @@ const updateCssVariables = (
     navHighlight,
     navText,
     bodyTextColor,
+    bodyBackground,
     bodyBackgroundShadow,
     pageRoot
 ) => {
@@ -26,6 +27,7 @@ const updateCssVariables = (
         "--nav-bar-background-highlight": `#${navHighlight}`,
         "--nav-bar-text-color": `#${navText}`,
         "--text-color": `#${bodyTextColor}`,
+        "--background-color": `#${bodyBackground}`,
         "--background-shadow-color": `#${bodyBackgroundShadow}`,
     });
 };
@@ -40,6 +42,7 @@ export const updatePagePallette = (visibleIndex, pageRoot) => {
                 "D4A775",
                 "C3C3AC",
                 "100809cc",
+                "100809d2",
                 pageRoot
             );
             break;
@@ -50,6 +53,7 @@ export const updatePagePallette = (visibleIndex, pageRoot) => {
                 "007E8F",
                 "DDA388",
                 "070D18cc",
+                "070D18d1",
                 pageRoot
             );
             break;
@@ -61,6 +65,7 @@ export const updatePagePallette = (visibleIndex, pageRoot) => {
                 "2D5953",
                 "E7C678",
                 "1B140Bcc",
+                "1B140Bd1",
                 pageRoot
             );
             break;
@@ -72,6 +77,7 @@ export const updatePagePallette = (visibleIndex, pageRoot) => {
                 "C64E36",
                 "FE925D",
                 "170813cc",
+                "170813d1",
                 pageRoot
             );
             break;
@@ -83,6 +89,7 @@ export const updatePagePallette = (visibleIndex, pageRoot) => {
                 "E0FF4F",
                 "93E1F1",
                 "271A2Dcc",
+                "271A2Dd2",
                 pageRoot
             );
             break;
@@ -94,6 +101,19 @@ export const updatePagePallette = (visibleIndex, pageRoot) => {
                 "90585D",
                 "EDB8AB",
                 "0F0713cc",
+                "0F0713d2",
+                pageRoot
+            );
+            break;
+        }
+        case 6: {
+            updateCssVariables(
+                "211E20",
+                "2A2E34",
+                "C3936E",
+                "EAEAE5",
+                "211E20cc",
+                "211E20d3",
                 pageRoot
             );
             break;
@@ -105,6 +125,7 @@ export const updatePagePallette = (visibleIndex, pageRoot) => {
                 "D4A775",
                 "C3C3AC",
                 "100809cc",
+                "100809d2",
                 pageRoot
             );
             break;
