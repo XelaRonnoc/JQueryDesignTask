@@ -12,10 +12,10 @@
 }
 
 html {
-    scroll-behavior: smooth;
     background-color: black;
     font-family: "Open Sans", sans-serif;
 
+    scroll-behavior: smooth;
     /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
@@ -28,10 +28,10 @@ html::-webkit-scrollbar {
 
 /* general page alignment */
 body {
-    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
@@ -43,21 +43,21 @@ body::-webkit-scrollbar {
 
 /* nav bar styles */
 menu {
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     list-style: none;
-    position: fixed;
+    box-sizing: border-box;
 
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
     margin-top: 0;
     padding: 0 10px 0 10px;
     gap: 10px;
-
     width: 100%;
     height: 50px;
+
     background-color: var(--nav-bar-background);
     transition: 1s all ease;
 }
@@ -78,6 +78,7 @@ menu a {
     width: 100%;
     height: 100%;
     cursor: pointer;
+
     background-color: var(--nav-bar-background);
     color: var(--nav-bar-text-color);
     font-family: var(--header-font-family);
@@ -110,10 +111,11 @@ section > img {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    display: hidden;
-    opacity: 0;
     min-width: 100%;
     height: 100%;
+
+    display: hidden;
+    opacity: 0;
     transition: 3s opacity ease;
 }
 
@@ -130,10 +132,11 @@ main {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
-    height: 100vh;
-    padding-bottom: 20px;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+
+    height: 100vh;
+    padding-bottom: 20px;
 }
 
 main::-webkit-scrollbar {
@@ -143,18 +146,19 @@ main::-webkit-scrollbar {
 
 /* allows the card to be seperatley scrollable if run on a very vertcally narrow screen */
 .card {
-    z-index: 990;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    scroll-snap-align: start;
     flex-shrink: 0;
+    z-index: 990;
+
+    position: relative;
     width: 100%;
     height: 100vh;
-    display: flex;
-    position: relative;
     padding-bottom: 20px;
+
+    scroll-snap-align: start;
     overflow: scroll;
     scroll-snap-type: none;
     scroll-behavior: smooth;
@@ -166,30 +170,32 @@ main::-webkit-scrollbar {
     color: var(--text-color);
     background-color: var(--background-shadow-color);
     box-shadow: 0 0 50px 50px var(--background-shadow-color);
-    transition: 3s color ease;
+    transition: 3s all ease;
 }
 
 .text-container {
     width: 90%;
     z-index: 999;
+
     font-size: 18px;
     background-color: var(--background-shadow-color);
     box-shadow: 0 0 50px 50px var(--background-shadow-color);
     color: var(--text-color);
-    transition: 3s color ease;
+    transition: 3s all ease;
 }
 
 .font-toggle-button {
-    font-family: var(--header-font-family);
-    z-index: 999;
     position: fixed;
+    z-index: 999;
     right: 2%;
     top: 100px;
+
     padding: 6px 10px;
     border-radius: 6px;
+    border: 1px solid var(--nav-bar-text-color);
     background-color: var(--nav-bar-background);
     color: var(--nav-bar-text-color);
-    border: 1px solid var(--nav-bar-text-color);
+    font-family: var(--header-font-family);
     font-size: medium;
     cursor: pointer;
     transition: 1s all ease;
