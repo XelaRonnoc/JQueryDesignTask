@@ -33,8 +33,8 @@ export const contentArray = [
         paragraph: `<p>Contrary to popular belief, people can enjoy exposition. Documentaries are a great example of non-fiction ‘exposition’ that is widely enjoyed by its audience. Your fiction's audience can likewise find pleasure in understanding the intricacies of your fictional world.</p>
         <p>To ensure your exposition is enjoyable, focus on two main aspects: 'What' and 'How.' An inherently interesting subject matter will naturally captivate your audience, and by following the previous suggestions, your world should be inherently fascinating. The 'How' can also be crucial. Two methods make it engaging:</p>
 
-        <ol><li>Make the exposition the story's payoff, like detective stories where the audience eagerly awaits the big reveal.</li>
-        <li>Conceal the exposition within your world. Effective world-building uses environmental details, clothing, dialogue, and architecture to convey information about the world, its politics, and its people, without explicitly stating it. This follows the 'show, don't tell' principle in world-building and exposition.</li></ol>
+        <p>1: Make the exposition the story's payoff, like detective stories where the audience eagerly awaits the big reveal.</p>
+        <p>2: Conceal the exposition within your world. Effective world-building uses environmental details, clothing, dialogue, and architecture to convey information about the world, its politics, and its people, without explicitly stating it. This follows the 'show, don't tell' principle in world-building and exposition.</p>
         `,
         imageRef: `./images/Deamon.jpg`,
         alt: `Deamon and Monk`,
@@ -62,11 +62,11 @@ export const contentArray = [
     {
         id: 7,
         title: "Attributions",
-        paragraph: `<ol>
-        <li>Background images generated using <a href="https://creator.nightcafe.studio/">Night Cafe</a>.</li>
-        <li>Fonts from <a href="https://fonts.google.com/">Google Fonts</a>.</li>
-        <li>Original text refined by<a href="https://chat.openai.com/">ChatGPT-3.5</a>.</li>
-        </ol>
+        paragraph: `
+        <p>1: Background images generated using <a href="https://creator.nightcafe.studio/">Night Cafe</a>.</p>
+        <p>2: Fonts from <a href="https://fonts.google.com/">Google Fonts</a>.</p>
+        <p>3: Original text refined by<a href="https://chat.openai.com/">ChatGPT-3.5</a>.</p>
+
         <p>If you want to learn more about world building The Templin Institute on Youtube is running a series all about it! Check out one of those videos below:</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
         imageRef: `./images/PostApocalypticCity.jpg`,

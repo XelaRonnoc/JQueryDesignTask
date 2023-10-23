@@ -183,6 +183,8 @@ main::-webkit-scrollbar {
     box-shadow: 0 0 50px 50px var(--background-shadow-color);
     color: var(--text-color);
     transition: 3s all ease;
+    text-align: center;
+    justify-content: center;
 }
 
 .font-toggle-button {
