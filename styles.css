@@ -187,6 +187,11 @@ main::-webkit-scrollbar {
     justify-content: center;
 }
 
+.text-container a {
+    text-decoration: none;
+    color: var(--nav-bar-text-color);
+}
+
 .font-toggle-button {
     position: fixed;
     z-index: 999;

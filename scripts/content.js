@@ -63,9 +63,9 @@ export const contentArray = [
         id: 7,
         title: "Attributions",
         paragraph: `
-        <p>1: Background images generated using <a href="https://creator.nightcafe.studio/">Night Cafe</a>.</p>
-        <p>2: Fonts from <a href="https://fonts.google.com/">Google Fonts</a>.</p>
-        <p>3: Original text refined by<a href="https://chat.openai.com/">ChatGPT-3.5</a>.</p>
+        <p>1: Background images generated using <a href="https://creator.nightcafe.studio/" target="_blank">Night Cafe</a>.</p>
+        <p>2: Fonts from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
+        <p>3: Original text refined by <a href="https://chat.openai.com/" target="_blank">ChatGPT-3.5</a>.</p>
 
         <p>If you want to learn more about world building The Templin Institute on Youtube is running a series all about it! Check out one of those videos below:</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
