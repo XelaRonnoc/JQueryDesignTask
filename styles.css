@@ -1,6 +1,6 @@
 :root {
     /* variables */
-    /* nav-bar colours */
+    /* nav-bar colors */
     --nav-bar-background: #100809;
     --nav-bar-background-highlight: #3b241d;
     --nav-bar-text-color: #d4a775;
@@ -103,7 +103,7 @@ section {
 }
 
 /* 
-centers image but ensures it is at least as big as view port both vertically and horizontaly
+centers image but ensures it is at least as big as view port both vertically and horizontally
 without stretching it
  */
 section > img {
@@ -145,7 +145,7 @@ main::-webkit-scrollbar {
     display: none;
 }
 
-/* allows the card to be seperatley scrollable if run on a very vertcally narrow screen */
+/* allows the card to be separately scrollable if run on a very vertically narrow screen */
 .card {
     display: flex;
     flex-direction: column;

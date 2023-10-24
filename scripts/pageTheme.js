@@ -12,7 +12,7 @@ export const toggleHeaderFont = (pageRoot, curFont) => {
     }
 };
 
-// alows for less code repetion when editing css class variables
+// allows for less code repetition when editing css class variables
 const updateCssVariables = (
     navBackground,
     navHighlight,

@@ -12,7 +12,7 @@ export const contentArray = [
     {
         id: 2,
         title: "Deep Not Broad",
-        paragraph: `<p>When world-building, it's common to overcomplicate things by introducing too many elements—spells, alien races, factions, planets. This overwhelms the audience, making it hard for them to form a clear mental picture. Think of adding elements like expanding the surface area of an object. The more you add, the more you have to delve deeply into each one to make them integral to the world. For instance, introducing nanite healing technology leads to questions about its various applications—like creating a destructive machine virus or causing overpopulation. Answering these questions adds depth to your world.</p>
+        paragraph: `<p>When world-building, it's common to over complicate things by introducing too many elements—spells, alien races, factions, planets. This overwhelms the audience, making it hard for them to form a clear mental picture. Think of adding elements like expanding the surface area of an object. The more you add, the more you have to delve deeply into each one to make them integral to the world. For instance, introducing nanite healing technology leads to questions about its various applications—like creating a destructive machine virus or causing overpopulation. Answering these questions adds depth to your world.</p>
         <p>To simplify the process and maximize audience immersion, it's often best to focus on a select few core elements and explore their implications thoroughly.</p>
         `,
         imageRef: `./images/MoonBase.jpg`,
@@ -67,7 +67,7 @@ export const contentArray = [
         <p>2: Fonts from <a tabindex="2" href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
         <p>3: Original text refined by <a tabindex="2" href="https://chat.openai.com/" target="_blank">ChatGPT-3.5</a>.</p>
 
-        <h3>Learn more at The Templin Institute:</h3>
+        <h3>Learn more about world building at The Templin Institute:</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
         imageRef: `./images/PostApocalypticCity.jpg`,
         alt: `Post Apocalyptic City`,

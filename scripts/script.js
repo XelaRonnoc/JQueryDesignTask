@@ -19,7 +19,7 @@ $(document).ready(function () {
     const cardArray = $(".card").toArray();
     let visibleIndex = 0;
 
-    // on scroll reveale the next image and update the nav bar
+    // on scroll reveal the next image and update the nav bar
     $("main").scroll(function () {
         visibleIndex = revealOnScroll(cardArray);
         setNavBarActiveOnScroll(visibleIndex, navArray);
