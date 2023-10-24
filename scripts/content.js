@@ -12,7 +12,7 @@ export const contentArray = [
     {
         id: 2,
         title: "Deep Not Broad",
-        paragraph: `<p>When world-building, it's common to overcomplicate things by introducing too many elements—spells, alien races, factions, planets. This overwhelms the audience, making it hard for them to form a clear mental picture. Think of adding elements like expanding the surface area of an object. The more you add, the more you have to delve deeply into each one to make them integral to the world. For instance, introducing nanite healing technology leads to questions about its various applications—like creating a destructive machine virus or causing overpopulation. Answering these questions adds depth to your world.</p>
+        paragraph: `<p>When world-building, it's common to over complicate things by introducing too many elements—spells, alien races, factions, planets. This overwhelms the audience, making it hard for them to form a clear mental picture. Think of adding elements like expanding the surface area of an object. The more you add, the more you have to delve deeply into each one to make them integral to the world. For instance, introducing nanite healing technology leads to questions about its various applications—like creating a destructive machine virus or causing overpopulation. Answering these questions adds depth to your world.</p>
         <p>To simplify the process and maximize audience immersion, it's often best to focus on a select few core elements and explore their implications thoroughly.</p>
         `,
         imageRef: `./images/MoonBase.jpg`,
@@ -33,8 +33,8 @@ export const contentArray = [
         paragraph: `<p>Contrary to popular belief, people can enjoy exposition. Documentaries are a great example of non-fiction ‘exposition’ that is widely enjoyed by its audience. Your fiction's audience can likewise find pleasure in understanding the intricacies of your fictional world.</p>
         <p>To ensure your exposition is enjoyable, focus on two main aspects: 'What' and 'How.' An inherently interesting subject matter will naturally captivate your audience, and by following the previous suggestions, your world should be inherently fascinating. The 'How' can also be crucial. Two methods make it engaging:</p>
 
-        <ol><li>Make the exposition the story's payoff, like detective stories where the audience eagerly awaits the big reveal.</li>
-        <li>Conceal the exposition within your world. Effective world-building uses environmental details, clothing, dialogue, and architecture to convey information about the world, its politics, and its people, without explicitly stating it. This follows the 'show, don't tell' principle in world-building and exposition.</li></ol>
+        <p>1: Make the exposition the story's payoff, like detective stories where the audience eagerly awaits the big reveal.</p>
+        <p>2: Conceal the exposition within your world. Effective world-building uses environmental details, clothing, dialogue, and architecture to convey information about the world, its politics, and its people, without explicitly stating it. This follows the 'show, don't tell' principle in world-building and exposition.</p>
         `,
         imageRef: `./images/Deamon.jpg`,
         alt: `Deamon and Monk`,
@@ -58,5 +58,18 @@ export const contentArray = [
         `,
         imageRef: `./images/FantasyCastle.jpg`,
         alt: `Castle and Knight`,
+    },
+    {
+        id: 7,
+        title: "Attributions",
+        paragraph: `
+        <p>1: Background images generated using <a tabindex="2" href="https://creator.nightcafe.studio/" target="_blank">Night Cafe</a>.</p>
+        <p>2: Fonts from <a tabindex="2" href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
+        <p>3: Original text refined by <a tabindex="2" href="https://chat.openai.com/" target="_blank">ChatGPT-3.5</a>.</p>
+
+        <h3>Learn more about world building at The Templin Institute:</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
+        imageRef: `./images/PostApocalypticCity.jpg`,
+        alt: `Post Apocalyptic City`,
     },
 ];

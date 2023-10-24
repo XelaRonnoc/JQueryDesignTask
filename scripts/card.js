@@ -5,7 +5,7 @@ export const createCard = (item) => {
     <div id='${id}' class="card ${id === 1 ? "reveal" : ""}">
     <h1>${title}</h1>
         <div id="paraId${id}" class='text-container'>
-            <p>${paragraph}</p>
+            <div>${paragraph}</div>
         </div>
     </div>
     `;
