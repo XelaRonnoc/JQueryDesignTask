@@ -7,7 +7,7 @@ export const contentArray = [
         title: "World Building",
         paragraph: `World building is a vital aspect of crafting any work of fiction, whether it belongs to the fantasy, science fiction, or historical fiction genres. It's essential to convey to the audience the social, physical, and political backdrop of your fictional world to a reasonable degree. This enables readers or viewers to immerse themselves in your narrative and imagine themselves within it. If your audience can envision themselves in the world you've created and imagine playing a role in it, this is a positive indicator that you've constructed an engaging world. On this site, we'll explore not only the key considerations for effective worldbuilding but also how to effectively communicate this information to your audience.`,
         imageRef: `./images/FantasyMap.jpg`,
-        alt: `Fantasy map`,
+        alt: `Fantasy map on table`,
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ export const contentArray = [
         <p>To simplify the process and maximize audience immersion, it's often best to focus on a select few core elements and explore their implications thoroughly.</p>
         `,
         imageRef: `./images/MoonBase.jpg`,
-        alt: `Moon Base`,
+        alt: `Moon base`,
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ export const contentArray = [
         <p>On the other hand, a more constrained magic system, such as the bending seen in 'Avatar: The Last Airbender,' compels characters to utilize the limited tools they possess. For instance, water benders must discover how to bend the water within a person's body to escape a dire situation. This approach allows you to craft more engaging stories and challenges for your characters to overcome.</p>
         `,
         imageRef: `./images/SailingShips.jpg`,
-        alt: `Sailing Ships`,
+        alt: `Painting of sailing Ships`,
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const contentArray = [
         <p>2: Conceal the exposition within your world. Effective world-building uses environmental details, clothing, dialogue, and architecture to convey information about the world, its politics, and its people, without explicitly stating it. This follows the 'show, don't tell' principle in world-building and exposition.</p>
         `,
         imageRef: `./images/Deamon.jpg`,
-        alt: `Deamon and Monk`,
+        alt: `Monk faces deamon of fire and shadow`,
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const contentArray = [
         <p>This is not an exhaustive or detailed example, but it underscores the profound impact of a single, rare spell on a world. It illustrates why it's crucial not to overwhelm your story with too many elements.</p>
         `,
         imageRef: `./images/Cyberpunk.jpg`,
-        alt: `Cyberpunk Street`,
+        alt: `Cyberpunk neon street`,
     },
     {
         id: 6,
@@ -57,19 +57,19 @@ export const contentArray = [
         <p>By incorporating these insights into your world-building endeavors, whether it's for a tabletop narrative campaign, a book, a movie, or a game, you'll be on the right track to success.</p>
         `,
         imageRef: `./images/FantasyCastle.jpg`,
-        alt: `Castle and Knight`,
+        alt: `Castle and knight at sunset`,
     },
     {
         id: 7,
         title: "Attributions",
         paragraph: `
-        <p>1: Background images generated using <a class="tab-last7" tabindex="-2" href="https://creator.nightcafe.studio/" target="_blank">Night Cafe</a>.</p>
+        <p>1: Background images by Alex Milton generated using <a class="tab-last7" tabindex="-2" href="https://creator.nightcafe.studio/" target="_blank">Night Cafe</a>.</p>
         <p>2: Fonts from <a class="tab-last7" tabindex="-2" href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
-        <p>3: Original text refined by <a class="tab-last7" tabindex="-2" href="https://chat.openai.com/" target="_blank">ChatGPT-3.5</a>.</p>
+        <p>3: Original text by Alex Milton refined by <a class="tab-last7" tabindex="-2" href="https://chat.openai.com/" target="_blank">ChatGPT-3.5</a>.</p>
 
         <h3>Learn more about world building at The Templin Institute:</h3>
         <iframe class="tab-last7" tabindex="-2" width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
         imageRef: `./images/PostApocalypticCity.jpg`,
-        alt: `Post Apocalyptic City`,
+        alt: `Overgrown post apocalyptic city`,
     },
 ];

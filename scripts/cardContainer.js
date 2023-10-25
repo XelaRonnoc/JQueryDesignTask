@@ -30,6 +30,7 @@ export const revealOnScroll = (cardArray) => {
         const elementInView =
             elementBottom > viewportTop && elementTop < viewportBottom;
         const innerAnchors = document.querySelectorAll(`.tab-last${item.id}`);
+
         if (elementInView) {
             visibleIndex = item.id - 1;
             $(`#image${item.id}`).get(0).classList.add("reveal");

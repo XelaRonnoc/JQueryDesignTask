@@ -117,7 +117,7 @@ section > img {
 
     display: hidden;
     opacity: 0;
-    transition: 3s opacity ease;
+    transition: 2s opacity ease;
 }
 
 /* allows for one image to be visible */
@@ -171,7 +171,7 @@ main::-webkit-scrollbar {
     color: var(--text-color);
     background-color: var(--background-color);
     box-shadow: 0 0 50px 50px var(--background-shadow-color);
-    transition: 3s all ease;
+    transition: 2s all ease;
 }
 
 .card h3 {
