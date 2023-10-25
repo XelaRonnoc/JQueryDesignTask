@@ -63,12 +63,12 @@ export const contentArray = [
         id: 7,
         title: "Attributions",
         paragraph: `
-        <p>1: Background images generated using <a tabindex="2" href="https://creator.nightcafe.studio/" target="_blank">Night Cafe</a>.</p>
-        <p>2: Fonts from <a tabindex="2" href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
-        <p>3: Original text refined by <a tabindex="2" href="https://chat.openai.com/" target="_blank">ChatGPT-3.5</a>.</p>
+        <p>1: Background images generated using <a class="tab-last7" tabindex="-2" href="https://creator.nightcafe.studio/" target="_blank">Night Cafe</a>.</p>
+        <p>2: Fonts from <a class="tab-last7" tabindex="-2" href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
+        <p>3: Original text refined by <a class="tab-last7" tabindex="-2" href="https://chat.openai.com/" target="_blank">ChatGPT-3.5</a>.</p>
 
         <h3>Learn more about world building at The Templin Institute:</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
+        <iframe class="tab-last7" tabindex="-2" width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
         imageRef: `./images/PostApocalypticCity.jpg`,
         alt: `Post Apocalyptic City`,
     },

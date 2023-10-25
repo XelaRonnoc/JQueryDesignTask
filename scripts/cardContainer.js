@@ -29,12 +29,19 @@ export const revealOnScroll = (cardArray) => {
         const viewportBottom = viewportTop + $(window).height();
         const elementInView =
             elementBottom > viewportTop && elementTop < viewportBottom;
-
+        const innerAnchors = document.querySelectorAll(`.tab-last${item.id}`);
         if (elementInView) {
             visibleIndex = item.id - 1;
             $(`#image${item.id}`).get(0).classList.add("reveal");
+
+            if (innerAnchors.length) {
+                innerAnchors.forEach((anchor) => (anchor.tabIndex = 2));
+            }
         } else {
             $(`#image${item.id}`).get(0).classList.remove("reveal");
+            if (innerAnchors.length) {
+                innerAnchors.forEach((anchor) => (anchor.tabIndex = -2));
+            }
         }
     });
     return visibleIndex;
