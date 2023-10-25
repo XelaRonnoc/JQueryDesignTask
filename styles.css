@@ -117,7 +117,7 @@ section > img {
 
     display: hidden;
     opacity: 0;
-    transition: 3s opacity ease;
+    transition: 2s opacity ease;
 }
 
 /* allows for one image to be visible */
@@ -174,7 +174,7 @@ main::-webkit-scrollbar {
     transition: 3s all ease;
 }
 
-.card h3 {
+.card h2 {
     font-family: var(--header-font-family);
 }
 
@@ -196,6 +196,7 @@ main::-webkit-scrollbar {
     color: var(--nav-bar-text-color);
 }
 
+/* styles for the font toggle button */
 .font-toggle-button {
     position: fixed;
     z-index: 999;

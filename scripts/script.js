@@ -8,7 +8,6 @@ import {
 } from "./navBar.js";
 
 $(document).ready(function () {
-    let curFont = "fancy";
     // setup page
     const pageRoot = $(":root");
     createCards(contentArray, $("main"));
@@ -18,6 +17,7 @@ $(document).ready(function () {
     const navArray = $(".nav-button").toArray();
     const cardArray = $(".card").toArray();
     let visibleIndex = 0;
+    let curFont = "fancy";
 
     // on scroll reveal the next image and update the nav bar
     $("main").scroll(function () {
