@@ -2,11 +2,11 @@
 
 ## Code Architecture principals/guidelines followed:
 
--   Single responsibility
+-   Single responsibility:
     -   To the extent possible/reasonable avoided creating functions with side effects instead allowing functions to delegate as required.
--   Pure functions
+-   Pure functions:
     -   Avoided using variables in a function that were not passed into that functions parameters.
--   Component based approach
+-   Component based approach:
     -   More accurately a psuedo-component based approach as a fully component based approach appeared overkill.
     -   This allows for easier code readability and allows for easier maintainability and upgradeability of code by reducing/organizing dependencies.
 
