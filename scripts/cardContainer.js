@@ -18,8 +18,11 @@ export const createImages = (contentArray, containerElement) => {
     containerElement.html($("section").html() + htmlString);
 };
 
-// loops through all elements in viewport, when it finds the element in the view port it
-// adds the reveal class setting the associated images opacity to 1 from default 0
+/*  Loops through all elements in viewport, when it finds the element in the view port it
+    adds the reveal class setting the associated images opacity to 1 from default 0.
+    Additionally checks visible page has any focusable components (anchor tags or video controls)
+    and only allows them to be focusable if that page is visible.
+*/
 export const revealOnScroll = (cardArray) => {
     let visibleIndex = 0;
     cardArray.forEach((item) => {

@@ -1,11 +1,11 @@
 // all the page content stored here allowing for easier dynamic
-// rendering and easy increase or decrease of page number
+// rendering and easy increase or decrease of pages
 
 export const contentArray = [
     {
         id: 1,
         title: "World Building",
-        paragraph: `World building is a vital aspect of crafting any work of fiction, whether it belongs to the fantasy, science fiction, or historical fiction genres. It's essential to convey to the audience the social, physical, and political backdrop of your fictional world to a reasonable degree. This enables readers or viewers to immerse themselves in your narrative and imagine themselves within it. If your audience can envision themselves in the world you've created and imagine playing a role in it, this is a positive indicator that you've constructed an engaging world. On this site, we'll explore not only the key considerations for effective worldbuilding but also how to effectively communicate this information to your audience.`,
+        paragraph: `<p>World building is a vital aspect of crafting any work of fiction, whether it belongs to the fantasy, science fiction, or historical fiction genres. It's essential to convey to the audience the social, physical, and political backdrop of your fictional world to a reasonable degree. This enables readers or viewers to immerse themselves in your narrative and imagine themselves within it. If your audience can envision themselves in the world you've created and imagine playing a role in it, this is a positive indicator that you've constructed an engaging world. On this site, we'll explore not only the key considerations for effective world building but also how to effectively communicate this information to your audience.</p>`,
         imageRef: `./images/FantasyMap.jpg`,
         alt: `Fantasy map on table`,
     },
@@ -67,7 +67,7 @@ export const contentArray = [
         <p>2: Fonts from <a class="tab-last7" tabindex="-2" href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
         <p>3: Original text by Alex Milton refined by <a class="tab-last7" tabindex="-2" href="https://chat.openai.com/" target="_blank">ChatGPT-3.5</a>.</p>
 
-        <h3>Learn more about world building at The Templin Institute:</h3>
+        <h2>Learn more about world building at The Templin Institute:</h2>
         <iframe class="tab-last7" tabindex="-2" width="560" height="315" src="https://www.youtube.com/embed/LZr-sl8mRCg?si=bwijAbWMllifMjJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
         imageRef: `./images/PostApocalypticCity.jpg`,
         alt: `Overgrown post apocalyptic city`,

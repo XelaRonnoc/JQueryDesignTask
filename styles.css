@@ -171,10 +171,10 @@ main::-webkit-scrollbar {
     color: var(--text-color);
     background-color: var(--background-color);
     box-shadow: 0 0 50px 50px var(--background-shadow-color);
-    transition: 2s all ease;
+    transition: 3s all ease;
 }
 
-.card h3 {
+.card h2 {
     font-family: var(--header-font-family);
 }
 
@@ -196,6 +196,7 @@ main::-webkit-scrollbar {
     color: var(--nav-bar-text-color);
 }
 
+/* styles for the font toggle button */
 .font-toggle-button {
     position: fixed;
     z-index: 999;
