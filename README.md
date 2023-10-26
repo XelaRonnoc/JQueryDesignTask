@@ -1,5 +1,7 @@
 # Website Design Project:
 
+### Note: for best experience use firefox.
+
 ## Code Architecture principals/guidelines followed:
 
 -   Single responsibility:
